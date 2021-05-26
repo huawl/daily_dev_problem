@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T03:09:37.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66" etag="z_Wt_ChNygeE-2gWiARs" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T10:33:31.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66" etag="uxyhSCJ-m25nIEIdDP8l" version="14.7.1" type="github">
   <diagram id="_55cNe7EeKbNRSnvYeKe" name="第 1 页">
-    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,9 +13,6 @@
           <mxGeometry x="298" y="30" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="66_5ZtQ0i-8mBDM65W0G-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IApz-53Kq86JLyY6Z_i-3" target="66_5ZtQ0i-8mBDM65W0G-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="66_5ZtQ0i-8mBDM65W0G-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IApz-53Kq86JLyY6Z_i-3" target="8IApz-53Kq86JLyY6Z_i-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8IApz-53Kq86JLyY6Z_i-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalTransactionScanner.wrapIfNecessary&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -81,8 +78,60 @@
             <mxPoint x="403" y="830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="66_5ZtQ0i-8mBDM65W0G-27" target="66_5ZtQ0i-8mBDM65W0G-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="66_5ZtQ0i-8mBDM65W0G-27" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalBeginResponse&lt;/span&gt;.getXid&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="249" y="870" width="310" height="50" as="geometry" />
+          <mxGeometry x="248" y="920" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-30" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;ServerRunner&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="120" as="targetPoint" />
+            <mxPoint x="850" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-34" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalTransactionScanner.wrapIfNecessary&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="120" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="66_5ZtQ0i-8mBDM65W0G-36" target="66_5ZtQ0i-8mBDM65W0G-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-36" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;Server.&lt;span style=&quot;font-style: italic&quot;&gt;start&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="120" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="66_5ZtQ0i-8mBDM65W0G-38" target="66_5ZtQ0i-8mBDM65W0G-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-38" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;DefaultCoordinator.doGlobalBegin&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="220" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="66_5ZtQ0i-8mBDM65W0G-41" target="66_5ZtQ0i-8mBDM65W0G-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-41" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;DefaultCore&lt;/span&gt;.begin&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-48" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;DataBaseSessionManager&lt;/span&gt;.addGlobalSession&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="400" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="66_5ZtQ0i-8mBDM65W0G-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-53" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;DataBaseTransactionStoreManager&lt;/span&gt;.writeSession&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="490" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="66_5ZtQ0i-8mBDM65W0G-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-55" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;LogStoreDataBaseDAO&lt;/span&gt;.insertGlobalTransactionDO&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="580" width="310" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

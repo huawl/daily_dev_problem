@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T02:58:03.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66" etag="ZEhJ5CRkCxio9TpZ-Qh2" version="14.7.1" type="github"><diagram id="_55cNe7EeKbNRSnvYeKe" name="第 1 页">7VXJbtswEP0aAe3BgCx6PcaOmy4pUMAFivRS0NJEYktpFIqyrXx9hyIlWnUdJIccCvRicx5nn8dRwNb58UbxMvuMCcggCpNjwK6DKJovIvo1QGOBCZtbIFUisdDYA1vxCA4MHVqLBKqBokaUWpRDMMaigFgPMK4UHoZq9yiHUUuewhmwjbk8R7+JRGcWXURzj78HkWZd5PFsaW9y3im7SqqMJ3g4gdgmYGuFqO0pP65Bmt51fbF27y7c9okpKPRzDBYfrsrH0ZR9eljMPt42d7PvP8TITafSTVcwJFS/E1HpDFMsuNx4dKWwLhIwXkOSvM4tYkngmMCfoHXjhslrjQRlOpfu1sY0gS6W4qAKaxXDE/mP+0YSAQFz0KohOwWSa7Ef+ueOCmmv15t+QUGRo9CxNlpOrYkj7bibYedCc5WCdla+53Q4ScND7SReMBWX8J7L2pUQRDNJrVmVCgbjmj3Uhj+rHY9/pe1gRjFKVAG7Mm1Id2+iKdVC6VMm4R/nt0Yw46BnUejRPc+FbKwleeZ52V4yNrET3SkuispQGws8U+gdm9uq5DEMvVctG4zvZal94nRKzf+NxB2XXxUvKh5rgQW9QXrRqiuc+tjWbrXPWOs5aQh2yISGbZsDuz7QXvob//agNByfZuA5szqDZThgCHPiwe+IfoVlJ/thEl7m4oBFL6UM+0+Zf4wy/VJ5Bc6Q6D8sdiv5rzPb/AY=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-26T03:09:37.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66" etag="z_Wt_ChNygeE-2gWiARs" version="14.7.1" type="github">
+  <diagram id="_55cNe7EeKbNRSnvYeKe" name="第 1 页">
+    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8IApz-53Kq86JLyY6Z_i-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8IApz-53Kq86JLyY6Z_i-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IApz-53Kq86JLyY6Z_i-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalTransactionScanner&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="298" y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IApz-53Kq86JLyY6Z_i-3" target="66_5ZtQ0i-8mBDM65W0G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IApz-53Kq86JLyY6Z_i-3" target="8IApz-53Kq86JLyY6Z_i-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IApz-53Kq86JLyY6Z_i-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalTransactionScanner.wrapIfNecessary&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="248" y="120" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalTransactionalInterceptor&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="284.25" y="230" width="237.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="330" as="targetPoint" />
+            <mxPoint x="403" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="66_5ZtQ0i-8mBDM65W0G-7" target="66_5ZtQ0i-8mBDM65W0G-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-7" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalTransactionScanner.invoke-&amp;gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalTransactionScanner.handleGlobalTransaction&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="330" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="66_5ZtQ0i-8mBDM65W0G-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-10" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;TransactionalTemplate&lt;/span&gt;.execute&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="420" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="66_5ZtQ0i-8mBDM65W0G-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-13" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalTransactionContext.&lt;span style=&quot;font-style: italic&quot;&gt;createNew&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="510" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="66_5ZtQ0i-8mBDM65W0G-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-19" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;DefaultGlobalTransaction&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="600" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="66_5ZtQ0i-8mBDM65W0G-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-21" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;DefaultTransactionManager&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="690" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="66_5ZtQ0i-8mBDM65W0G-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-25" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;DefaultTransactionManager.begin&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="780" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="66_5ZtQ0i-8mBDM65W0G-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="66_5ZtQ0i-8mBDM65W0G-27" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;GlobalBeginResponse&lt;/span&gt;.getXid&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="870" width="310" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

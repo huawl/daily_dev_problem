@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="sayService" clazz="com.huawl.spring.service.SayService">
+        <property name="message" value="我是中国人"></property>
+        <property name="userInfoService" ref="userInfoService"></property>
+    </bean>
+    <bean id="userInfoService" clazz="com.huawl.spring.service.UserInfoService">
+        <property name="username" value="李卫华"></property>
+        <property name="age" value="30"></property>
+        <property name="sayService" ref="sayService"></property>
+    </bean>
+    <bean id="helloBeanPostProcessor" clazz="com.huawl.spring.service.HelloBeanPostProcessor">
+    </bean>
+    <bean id="helloBeanFactoryPostProcessor" clazz="com.huawl.spring.service.HelloBeanFactoryPostProcessor">
+    </bean>
+
+</beans>
